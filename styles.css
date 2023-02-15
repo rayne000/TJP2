@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+form{
+    width: 700px;
+    margin: auto;
+    background: #FFFFFF;
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color:  #000000;
+} 
+
+h1{
+    margin-top: 78px;
+    margin-bottom: 40px;
+    font-size: 32px;
+    letter-spacing: 0.005em;
+}
+
+    input{
+        padding: 10px;
+        width: 200px;
+        border: 1px solid;
+        border-radius: 3px;
+
+    }
+    .item-1, .item-2, .item-3, .item-4, .item-5, .item-6,.item-7, .item-8, .item-9{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+}
+
+    .Gender{
+        display: -webkit-box;
+        text-align: left;
+    }
+input[type=radio]{
+    width: 90px;
+
+}
+
+.Skill{
+    display: -webkit-box;
+    text-align: left;
+}
+
+input[type=checkbox]{
+    width: 28px;
+
+}
+
+    .College{
+        position: relative ;
+        border: 1px solid;
+        display: inline-flex;
+        box-sizing: border-box;
+        border-radius:7px;
+        background-color: transparent;
+        width: 220px;
+        height: 40px;
+        line-height: 40px;
+        cursor: pointer;
+    
+    }
+    #submit{
+        width: 220px;
+        position: relative;
+        left: 480px;
+        background: #155EEF;
+        border-radius: 6px;
+        font-size: 16px;
+        color: #FFFFFF;
+        padding: 10px 80px;
+        cursor: pointer;
+    }
